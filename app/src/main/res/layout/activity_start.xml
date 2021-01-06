@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/backgcvt"
+    tools:context=".StartActivity"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/style2"
+        android:textColor="#F24343"
+        android:textSize="25sp" />
+
+
+    <Button
+        android:id="@+id/asia"
+        android:fontFamily="@font/style2"
+        android:layout_width="@dimen/startBtn_width"
+        android:layout_height="@dimen/startBtn_height"
+        android:layout_marginTop="350dp"
+        android:textColor="@color/putih"
+        android:onClick="startQuiz"
+        android:textSize="20sp"
+        android:background="@drawable/btn5"
+        android:text="KUY Main !" />
+
+
+    <Button
+        android:id="@+id/tentang"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/putih"
+        android:fontFamily="@font/style2"
+        android:layout_width="@dimen/startBtn_width"
+        android:layout_height="@dimen/startBtn_height"
+        android:layout_marginBottom="120dp"
+        android:text="credits"
+        android:background="@drawable/btn5"
+        android:textSize="20sp" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/musikon"
+            android:layout_width="@dimen/BtnMusic_width"
+            android:layout_height="@dimen/BtnMusic_height"
+            android:background="@drawable/btnmsconpng"
+            android:onClick="play" />
+
+        <Button
+            android:id="@+id/musikoff"
+            android:layout_marginLeft="120dp"
+            android:layout_width="@dimen/BtnMusic_width"
+            android:layout_height="@dimen/BtnMusic_height"
+            android:background="@drawable/btnmscoff"
+            android:onClick="pause" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/bckgdpnrev"
+    tools:context=".HalamanDepan">
+
+    <Button
+        android:id="@+id/buttonawal"
+        android:layout_width="232dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="95dp"
+        android:text="Push here to play"
+        android:fontFamily="@font/style4"
+        android:textSize="20sp"
+        android:textColor="@color/putih"
+        android:background="@drawable/btn5">
+
+
+    </Button>
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="232dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="95dp"
+        android:text="EXIT !"
+        android:fontFamily="@font/style4"
+        android:textSize="20dp"
+        android:background="@drawable/btn5"
+        android:textColor="@color/putih"
+
+        >
+
+    </Button>
+    <Button
+        android:layout_width="232dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="95dp"
+        android:background="@drawable/btn5"
+        android:fontFamily="@font/style2"
+        android:text="Anzas"
+        android:textColor="@color/putih">
+
+
+    </Button>
+
+
+</LinearLayout>

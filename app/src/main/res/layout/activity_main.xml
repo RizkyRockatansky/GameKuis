@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bckingame"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/CountLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q1"
+        android:textSize="24sp"
+        android:fontFamily="@font/style5"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/QuestionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Question"
+        android:textSize="25sp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/style5"
+        />
+
+    <Button
+        android:id="@+id/answerBtn1"
+        android:background="@drawable/btn2"
+        android:fontFamily="@font/style5"
+        android:layout_width="@dimen/answerBtn_width"
+        android:layout_height="@dimen/answerBtn_height"
+        android:text="Jawaban1"
+        android:layout_marginTop="250dp"
+        android:onClick="checkAnswer"/>
+
+    <Button
+        android:id="@+id/answerBtn2"
+        android:background="@drawable/btn2"
+        android:fontFamily="@font/style5"
+        android:layout_width="@dimen/answerBtn_width"
+        android:layout_height="@dimen/answerBtn_height"
+        android:text="Jawaban2"
+        android:layout_marginTop="6dp"
+        android:onClick="checkAnswer"/>
+
+    <Button
+        android:id="@+id/answerBtn3"
+        android:background="@drawable/btn2"
+        android:fontFamily="@font/style5"
+        android:layout_width="@dimen/answerBtn_width"
+        android:layout_height="@dimen/answerBtn_height"
+        android:text="Jawaban3"
+        android:layout_marginTop="6dp"
+        android:onClick="checkAnswer"/>
+
+    <Button
+        android:id="@+id/answerBtn4"
+        android:background="@drawable/btn2"
+        android:fontFamily="@font/style5"
+        android:layout_width="@dimen/answerBtn_width"
+        android:layout_height="@dimen/answerBtn_height"
+        android:text="Jawaban4"
+        android:layout_marginTop="6dp"
+        android:onClick="checkAnswer"/>
+
+</LinearLayout>
