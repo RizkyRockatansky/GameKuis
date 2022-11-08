@@ -1,1 +1,2 @@
 # GameKuis
+Berbasis mobile
